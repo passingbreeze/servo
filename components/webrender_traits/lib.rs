@@ -5,8 +5,13 @@
 #![deny(unsafe_code)]
 
 use euclid::default::Size2D;
+
+use std::cell::RefCell;
 use std::collections::HashMap;
+use std::ffi::c_void;
+use std::rc::Rc;
 use std::sync::{Arc, Mutex};
+
 use webrender_api::units::TexelRect;
 
 /// This trait is used as a bridge between the different GL clients
