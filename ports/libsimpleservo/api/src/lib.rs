@@ -32,7 +32,7 @@ use servo::servo_config::{pref, set_pref};
 use servo::servo_url::ServoUrl;
 use servo::webrender_api::units::DevicePixel;
 use servo::webrender_api::ScrollLocation;
-use servo::webrender_traits::WebrenderSurfman;
+use servo::webrender_surfman::WebrenderSurfman;
 use servo::webvr::{VRExternalShmemPtr, VRMainThreadHeartbeat, VRService, VRServiceManager};
 use servo::{self, gl, BrowserId, Servo};
 use servo_media::player::context as MediaPlayerContext;
