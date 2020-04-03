@@ -7,7 +7,7 @@
 use crate::events_loop::EventsLoop;
 use servo::canvas::{SurfaceProviders, WebGlExecutor};
 use servo::compositing::windowing::EmbedderMethods;
-use servo::embedder_traits::EventLoopWaker;
+use servo::embedder_traits::{EmbedderProxy, EventLoopWaker};
 use servo::servo_config::pref;
 use std::cell::RefCell;
 use std::rc::Rc;

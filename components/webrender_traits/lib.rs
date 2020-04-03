@@ -6,10 +6,7 @@
 
 use euclid::default::Size2D;
 
-use std::cell::RefCell;
 use std::collections::HashMap;
-use std::ffi::c_void;
-use std::rc::Rc;
 use std::sync::{Arc, Mutex};
 
 use webrender_api::units::TexelRect;
